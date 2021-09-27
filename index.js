@@ -1,7 +1,13 @@
-const WebSocket = require('ws');
+let http=require('http');
+const WebSocketServer = require('ws').Server;
+const express = require("express");
+const app=express();
+const port=++process.env.PORT || 5000;
+const server=http.createServer(app);
+server.listen(port);
 let notReadyPlayers = [];
 let sessionsMap = new Map();
-const wsServer = new WebSocket.Server({port: 8000});
+const wsServer = new WebSocketServer({server:server});
 let counter = 0;
 
 wsServer.on('connection', ws => {
@@ -15,7 +21,7 @@ wsServer.on('connection', ws => {
             sessionsMap.set(client, {
                 couple: null,
                 disposition: data.disposition,
-                end: false
+                end:false
 
             });
             ws.send('search');
@@ -36,8 +42,8 @@ wsServer.on('connection', ws => {
             const cellValue = enemyDisposition[row][column];
             enemyDisposition[row][column] = null;
             if (!enemyDisposition.flat(1).filter(element => element).length) {
-                sessionsMap.get(ws).end = true;
-                sessionsMap.get(sessionsMap.get(ws).couple).end = true;
+                sessionsMap.get(ws).end=true;
+                sessionsMap.get(sessionsMap.get(ws).couple).end=true;
                 ws.send(JSON.stringify({group: 'end', win: true}));
                 sessionsMap.get(ws).couple.send(JSON.stringify({group: 'end', win: false}));
                 ws.send('end');
@@ -78,15 +84,15 @@ wsServer.on('connection', ws => {
     });
 
     ws.on('close', () => {
-        if (sessionsMap.get(ws)?.couple) {
-            counter -= 2;
+        if(sessionsMap.get(ws)?.couple){
+            counter-=2;
         }
 
         if (notReadyPlayers.find(element => element === ws)) {
             notReadyPlayers.splice(notReadyPlayers.indexOf(ws), 1);
         } else {
             if (sessionsMap.get(ws)?.couple) {
-                if (!sessionsMap.get(ws).end) {
+                if(!sessionsMap.get(ws).end){
                     sessionsMap.get(ws).couple.send('break');
                 }
                 sessionsMap.delete(sessionsMap.get(ws).couple);

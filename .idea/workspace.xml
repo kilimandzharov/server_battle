@@ -10,7 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e91161-996b-4906-8ea7-e09efdf9a3e8" name="Default Changelist" comment="" />
+    <list default="true" id="d0e91161-996b-4906-8ea7-e09efdf9a3e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../first_redux/.idea/first_redux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sea_battle/.idea/sea_battle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../slider_experiment/.idea/slider_experiment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wQzDOHQh6WCYjNhtUgGbl5rA9C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +78,10 @@
       <updated>1628405479892</updated>
       <workItem from="1628405480987" duration="37646000" />
       <workItem from="1628592622275" duration="627000" />
-      <workItem from="1628764558577" duration="17985000" />
+      <workItem from="1628764558577" duration="24997000" />
+      <workItem from="1629022084015" duration="2178000" />
+      <workItem from="1629024351850" duration="1502000" />
+      <workItem from="1632776445579" duration="15000" />
     </task>
     <servers />
   </component>
@@ -86,26 +101,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="85" key="FileChooserDialogImpl" timestamp="1628505235034">
+    <state x="395" y="85" key="FileChooserDialogImpl" timestamp="1629024622396">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="85" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628505235034" />
-    <state width="1515" height="127" key="GridCell.Tab.0.bottom" timestamp="1628798072202">
+    <state x="395" y="85" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629024622396" />
+    <state width="1515" height="127" key="GridCell.Tab.0.bottom" timestamp="1629024322488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628798072202" />
-    <state width="1515" height="127" key="GridCell.Tab.0.center" timestamp="1628798072202">
+    <state width="1515" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629024322488" />
+    <state width="1515" height="127" key="GridCell.Tab.0.center" timestamp="1629024322488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628798072202" />
-    <state width="1515" height="127" key="GridCell.Tab.0.left" timestamp="1628798072202">
+    <state width="1515" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629024322488" />
+    <state width="1515" height="127" key="GridCell.Tab.0.left" timestamp="1629024322488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628798072202" />
-    <state width="1515" height="127" key="GridCell.Tab.0.right" timestamp="1628798072202">
+    <state width="1515" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629024322488" />
+    <state width="1515" height="127" key="GridCell.Tab.0.right" timestamp="1629024322488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628798072202" />
+    <state width="1515" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629024322488" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1628592592721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
